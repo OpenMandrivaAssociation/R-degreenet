@@ -31,8 +31,8 @@ mkdir -p %{buildroot}%{rlibdir}
 test -d %{packname}/src && (cd %{packname}/src; rm -f *.o *.so)
 rm -f %{buildroot}%{rlibdir}/R.css
 
-%check
-%{_bindir}/R CMD check %{packname}
+#%check
+#%{_bindir}/R CMD check %{packname}
 
 %files
 %dir %{rlibdir}/%{packname}
@@ -49,3 +49,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/flo*
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 777022
+- Import R-degreenet
+- Import R-degreenet
+
