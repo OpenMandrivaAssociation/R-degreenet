@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.1
+Version:          1.2
 Release:          1
 Summary:          Models for Skewed Count Distributions Relevant to Networks
 Group:            Sciences/Mathematics
 License:          file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/degreenet_1.2.tar.gz
 Requires:         R-network 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-network 
@@ -49,11 +49,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/flo*
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
-+ Revision: 777022
-- Import R-degreenet
-- Import R-degreenet
-
