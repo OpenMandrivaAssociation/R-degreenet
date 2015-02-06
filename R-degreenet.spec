@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.2
-Release:          2
+Release:          3
 Summary:          Models for Skewed Count Distributions Relevant to Networks
 Group:            Sciences/Mathematics
 License:          file LICENSE
