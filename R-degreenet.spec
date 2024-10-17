@@ -7,7 +7,7 @@ Release:          3
 Summary:          Models for Skewed Count Distributions Relevant to Networks
 Group:            Sciences/Mathematics
 License:          file LICENSE
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/degreenet_1.2.tar.gz
 Requires:         R-network 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
